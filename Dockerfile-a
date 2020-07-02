@@ -1,4 +1,5 @@
 FROM alpine:latest
+ARG DOCKER_TAG
 
 RUN echo $DOCKER_TAG
 RUN echo $DOCKER_TAG > /tmp/tag
