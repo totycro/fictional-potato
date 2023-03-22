@@ -2,7 +2,7 @@ $graph:
 
 - class: Workflow
   doc: Applies s expressions to EO acquisitions
-  id: snuggsresourcelimited
+  id: snuggsresourcelimitednew
   requirements:
   - class: ScatterFeatureRequirement
   inputs:
@@ -41,8 +41,8 @@ $graph:
 
   hints:
     ResourceRequirement:
-    coresMax: 1
-    ramMax: 24000
+      coresMax: 1
+      ramMax: 24000
 
   arguments:
   - --input_reference
